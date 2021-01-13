@@ -30,6 +30,8 @@ There are five different `Checked` methods used to get the data from the request
 `.set_workflow(...)` can be used to set the current workflow, or it can be set as an argument when creating a new SightEngine object. These are completely optional and are manipulated in the SightEngine interface.
 
 ```ruby 
+require "rubysightengine"
+
 s = SightEngine.new(api_user, api_secret, optional_workflow)
 
 s.set_workflow(new_workflow) # Optional 
